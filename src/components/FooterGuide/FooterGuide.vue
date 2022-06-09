@@ -1,9 +1,34 @@
+<!-- 底部导航栏 -->
 <template>
-  <div class="footer">
-    <button @click="pushToHome">外卖</button>
-    <button @click="pushToSearch">搜索</button>
-    <button @click="pushToOrder">订单</button>
-    <button @click="pushToProfile">我的</button>
+  <div class="footer_guide">
+    <!-- 外卖 -->
+    <span :class="{on: $route.path === '/home'}" @click="goTo('home')">
+      <div>
+        <span class="glyphicon glyphicon-home"></span>
+      </div>
+      <span>首页</span>
+    </span>
+    <!-- 搜索 -->
+    <span :class="{on: $route.path === '/search'}" @click="goTo('search')">
+      <div>
+        <span class="glyphicon glyphicon-search"></span>
+      </div>
+      <span>搜索</span>
+    </span>
+    <!-- 订单 -->
+    <span :class="{on: $route.path === '/order'}" @click="goTo('order')">
+      <div>
+        <span class="glyphicon glyphicon-tasks"></span>
+      </div>
+      <span>订单</span>
+    </span>
+    <!-- 我的(个人信息) -->
+    <span :class="{on: $route.path === '/profile'}" @click="goTo('profile')">
+      <div>
+        <span class="glyphicon glyphicon-user"></span>
+      </div>
+      <span>我的</span>
+    </span>
   </div>
 </template>
 
@@ -11,33 +36,31 @@
   export default {
     name: 'FooterGuide',
     methods:{
-      pushToHome() {
-        this.$router.push({
-          name:'home'
+      goTo(pathName) {
+        this.$router.replace({
+          name:pathName
         })
       },
-      pushToSearch() {
-        this.$router.push({
-          name:'search'
-        })
-      },
-      pushToOrder() {
-        this.$router.push({
-          name:'order'
-        })
-      },
-      pushToProfile() {
-        this.$router.push({
-          name:'profile'
-        })
-      }
     }
   }
 </script>
 
 <style>
-  .footer{
-    position: relative;
-    top: 500px;
+  .footer_guide{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: solid 1px rgb(196, 192, 192);
+  }
+
+  .on {
+    color:rgb(51, 207, 51)
   }
 </style>
