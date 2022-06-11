@@ -2,6 +2,7 @@ import Vue from 'vue'
 import App from './App.vue'
 import VueRouter from 'vue-router'
 import router from './router'
+import axios from 'axios'
 // import { Swipe, SwipeItem } from 'mint-ui'
 
 // 使用VueRouter

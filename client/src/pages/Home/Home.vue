@@ -163,13 +163,14 @@
   import 'swiper/dist/css/swiper.min.css'
   import HeaderTop from '@/components/HeaderTop/HeaderTop.vue';
   import ShopList from '../../components/ShopList/ShopList.vue';
+import axios from 'axios';
 
   export default {
     name: "Home",
     components: {
     HeaderTop,
     ShopList
-},
+    },
     mounted () {
       // 创建一个Swiper实例对象，来实现轮播
       new Swiper('.swiper-container', {
@@ -178,6 +179,10 @@
         pagination: {
           el: '.swiper-pagination'
         }
+      })
+
+      axios.get('http://localhost:8081/position').then(res => {
+        console.log(res)
       })
     },
     data (){
