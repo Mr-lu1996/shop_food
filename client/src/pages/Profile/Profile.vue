@@ -5,13 +5,13 @@
     <div class="profile_login">
       <img class="profile_img" src="./imgs/favicon.png" alt="">
       <div class="login_text_style">
-        <a href="javascript:;">
+        <router-link to="/login">
           <span>登陆/注册</span>
           <div>
             <span class="glyphicon glyphicon-phone"></span>
             <span>暂无绑定手机号</span>
           </div>
-        </a>       
+        </router-link>     
       </div>
       <div class="login_text_style">
         <span class="glyphicon glyphicon-menu-right"></span>
@@ -69,7 +69,10 @@
 import HeaderTop from '@/components/HeaderTop/HeaderTop.vue';
   export default {
     name: "Profile",
-    components: { HeaderTop }
+    components: { HeaderTop },
+    methods: {
+      
+    }
 }
 </script>
 

@@ -7,9 +7,10 @@
 </template>
 
 <script>
+  
   export default {
     name: 'HeadTop',
-    props:['title']
+    props:['title'],
   }
 </script>
 
@@ -24,5 +25,7 @@
     line-height: 40px;
     background-color: rgb(51, 207, 51);
     color: #fff;
+    display: flex;
+    justify-content: space-around;
   }
 </style>
