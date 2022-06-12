@@ -8,7 +8,7 @@
         <router-link to="/login">
           <span>登陆/注册</span>
           <div>
-            <span class="glyphicon glyphicon-phone"></span>
+            <span class="iconfont icon-shouji"></span>
             <span>暂无绑定手机号</span>
           </div>
         </router-link>     
@@ -45,19 +45,19 @@
     <ul class="center_menu">
       <li>
         <a href="javascript:;">
-          <span class="glyphicon glyphicon-tasks"></span>
+          <span class="iconfont icon-wodedingdan"></span>
           <span>我的订单</span>
         </a>
       </li>
       <li>
         <a href="javascript:;">
-          <span class="glyphicon glyphicon-usd"></span>
+          <span class="iconfont icon-jifen"></span>
           <span>积分商城</span>
         </a>
       </li>
       <li>
         <a href="javascript:;">
-          <span class="glyphicon glyphicon-send"></span>
+          <span class="iconfont icon-huiyuan"></span>
           <span>会员</span>
         </a>
       </li>

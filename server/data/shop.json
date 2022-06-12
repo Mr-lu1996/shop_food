@@ -35,14 +35,102 @@
     }
   ],
 
-  "index_category":[
+  "categorys":[
     {
-      "id": 20,
+      "id": 1,
       "is_in_serving": true,
       "description": "苦了累了，来点甜的",
       "title": "甜品饮品",
       "link": "eleme://restaurants?filter_key=%7B%22category_schema%22%3A%7B%22category_name%22%3A%22%5Cu751c%5Cu54c1%5Cu996e%5Cu54c1%22%2C%22complex_category_ids%22%3A%5B240%2C241%2C242%5D%2C%22is_show_all_category%22%3Atrue%7D%2C%22restaurant_category_id%22%3A%7B%22id%22%3A239%2C%22name%22%3A%22%5Cu751c%5Cu54c1%5Cu996e%5Cu54c1%22%2C%22sub_categories%22%3A%5B%5D%2C%22image_url%22%3A%22%22%7D%2C%22activities%22%3A%5B%5D%7D&target_name=%E7%94%9C%E5%93%81%E9%A5%AE%E5%93%81&animation_type=1&is_need_mark=0&banner_type=",
-      "image_url": "/2/35/696aa5cf9820adada9b11a3d14bf5jpeg.jpeg",
+      "image_url": "../src/pages/home/imgs/nav/img1.png",
+      "icon_url": "",
+      "title_color": "",
+      "__v": 0
+    },
+    {
+      "id": 2,
+      "is_in_serving": true,
+      "description": "足不出户，便利回家",
+      "title": "商超便利",
+      "link": "eleme://restaurants?filter_key=%7B%22category_schema%22%3A%7B%22category_name%22%3A%22%5Cu5546%5Cu8d85%5Cu4fbf%5Cu5229%22%2C%22complex_category_ids%22%3A%5B254%2C255%2C256%2C257%2C258%2C271%2C272%2C273%2C274%5D%2C%22is_show_all_category%22%3Atrue%7D%2C%22restaurant_category_id%22%3A%7B%22id%22%3A252%2C%22name%22%3A%22%5Cu5546%5Cu5e97%5Cu8d85%5Cu5e02%22%2C%22sub_categories%22%3A%5B%5D%2C%22image_url%22%3A%22%22%7D%2C%22activities%22%3A%5B%5D%7D&target_name=%E5%95%86%E8%B6%85%E4%BE%BF%E5%88%A9&animation_type=1&is_need_mark=0&banner_type=",
+      "image_url": "./imgs/nav/img2.png",
+      "icon_url": "",
+      "title_color": "",
+      "__v": 0
+    },
+    {
+      "id": 3,
+      "is_in_serving": true,
+      "description": "附近美食一网打尽",
+      "title": "美食",
+      "link": "eleme://restaurants?filter_key=%7B%22category_schema%22%3A%7B%22category_name%22%3A%22%5Cu7f8e%5Cu98df%22%2C%22complex_category_ids%22%3A%5B207%2C220%2C233%2C260%5D%2C%22is_show_all_category%22%3Afalse%7D%2C%22restaurant_category_id%22%3A%7B%22id%22%3A207%2C%22name%22%3A%22%5Cu5feb%5Cu9910%5Cu4fbf%5Cu5f53%22%2C%22sub_categories%22%3A%5B%5D%2C%22image_url%22%3A%22%22%7D%2C%22activities%22%3A%5B%5D%7D&target_name=%E7%BE%8E%E9%A3%9F&animation_type=1&is_need_mark=0&banner_type=",
+      "image_url": "./imgs/nav/img3.png",
+      "icon_url": "",
+      "title_color": "",
+      "__v": 0
+    },
+    {
+      "id": 4,
+      "is_in_serving": true,
+      "description": "附近美食一网打尽",
+      "title": "美食",
+      "link": "eleme://restaurants?filter_key=%7B%22category_schema%22%3A%7B%22category_name%22%3A%22%5Cu7f8e%5Cu98df%22%2C%22complex_category_ids%22%3A%5B207%2C220%2C233%2C260%5D%2C%22is_show_all_category%22%3Afalse%7D%2C%22restaurant_category_id%22%3A%7B%22id%22%3A207%2C%22name%22%3A%22%5Cu5feb%5Cu9910%5Cu4fbf%5Cu5f53%22%2C%22sub_categories%22%3A%5B%5D%2C%22image_url%22%3A%22%22%7D%2C%22activities%22%3A%5B%5D%7D&target_name=%E7%BE%8E%E9%A3%9F&animation_type=1&is_need_mark=0&banner_type=",
+      "image_url": "./imgs/nav/img4.png",
+      "icon_url": "",
+      "title_color": "",
+      "__v": 0
+    },
+    {
+      "id": 5,
+      "is_in_serving": true,
+      "description": "附近美食一网打尽",
+      "title": "美食",
+      "link": "eleme://restaurants?filter_key=%7B%22category_schema%22%3A%7B%22category_name%22%3A%22%5Cu7f8e%5Cu98df%22%2C%22complex_category_ids%22%3A%5B207%2C220%2C233%2C260%5D%2C%22is_show_all_category%22%3Afalse%7D%2C%22restaurant_category_id%22%3A%7B%22id%22%3A207%2C%22name%22%3A%22%5Cu5feb%5Cu9910%5Cu4fbf%5Cu5f53%22%2C%22sub_categories%22%3A%5B%5D%2C%22image_url%22%3A%22%22%7D%2C%22activities%22%3A%5B%5D%7D&target_name=%E7%BE%8E%E9%A3%9F&animation_type=1&is_need_mark=0&banner_type=",
+      "image_url": "./imgs/nav/img5.png",
+      "icon_url": "",
+      "title_color": "",
+      "__v": 0
+    },
+    {
+      "id": 6,
+      "is_in_serving": true,
+      "description": "附近美食一网打尽",
+      "title": "美食",
+      "link": "eleme://restaurants?filter_key=%7B%22category_schema%22%3A%7B%22category_name%22%3A%22%5Cu7f8e%5Cu98df%22%2C%22complex_category_ids%22%3A%5B207%2C220%2C233%2C260%5D%2C%22is_show_all_category%22%3Afalse%7D%2C%22restaurant_category_id%22%3A%7B%22id%22%3A207%2C%22name%22%3A%22%5Cu5feb%5Cu9910%5Cu4fbf%5Cu5f53%22%2C%22sub_categories%22%3A%5B%5D%2C%22image_url%22%3A%22%22%7D%2C%22activities%22%3A%5B%5D%7D&target_name=%E7%BE%8E%E9%A3%9F&animation_type=1&is_need_mark=0&banner_type=",
+      "image_url": "./imgs/nav/img6.png",
+      "icon_url": "",
+      "title_color": "",
+      "__v": 0
+    },
+    {
+      "id": 7,
+      "is_in_serving": true,
+      "description": "附近美食一网打尽",
+      "title": "美食",
+      "link": "eleme://restaurants?filter_key=%7B%22category_schema%22%3A%7B%22category_name%22%3A%22%5Cu7f8e%5Cu98df%22%2C%22complex_category_ids%22%3A%5B207%2C220%2C233%2C260%5D%2C%22is_show_all_category%22%3Afalse%7D%2C%22restaurant_category_id%22%3A%7B%22id%22%3A207%2C%22name%22%3A%22%5Cu5feb%5Cu9910%5Cu4fbf%5Cu5f53%22%2C%22sub_categories%22%3A%5B%5D%2C%22image_url%22%3A%22%22%7D%2C%22activities%22%3A%5B%5D%7D&target_name=%E7%BE%8E%E9%A3%9F&animation_type=1&is_need_mark=0&banner_type=",
+      "image_url": "./imgs/nav/img7.png",
+      "icon_url": "",
+      "title_color": "",
+      "__v": 0
+    },
+    {
+      "id": 8,
+      "is_in_serving": true,
+      "description": "附近美食一网打尽",
+      "title": "美食",
+      "link": "eleme://restaurants?filter_key=%7B%22category_schema%22%3A%7B%22category_name%22%3A%22%5Cu7f8e%5Cu98df%22%2C%22complex_category_ids%22%3A%5B207%2C220%2C233%2C260%5D%2C%22is_show_all_category%22%3Afalse%7D%2C%22restaurant_category_id%22%3A%7B%22id%22%3A207%2C%22name%22%3A%22%5Cu5feb%5Cu9910%5Cu4fbf%5Cu5f53%22%2C%22sub_categories%22%3A%5B%5D%2C%22image_url%22%3A%22%22%7D%2C%22activities%22%3A%5B%5D%7D&target_name=%E7%BE%8E%E9%A3%9F&animation_type=1&is_need_mark=0&banner_type=",
+      "image_url": "./imgs/nav/img8.png",
+      "icon_url": "",
+      "title_color": "",
+      "__v": 0
+    },
+    {
+      "id": 9,
+      "is_in_serving": true,
+      "description": "苦了累了，来点甜的",
+      "title": "甜品饮品",
+      "link": "eleme://restaurants?filter_key=%7B%22category_schema%22%3A%7B%22category_name%22%3A%22%5Cu751c%5Cu54c1%5Cu996e%5Cu54c1%22%2C%22complex_category_ids%22%3A%5B240%2C241%2C242%5D%2C%22is_show_all_category%22%3Atrue%7D%2C%22restaurant_category_id%22%3A%7B%22id%22%3A239%2C%22name%22%3A%22%5Cu751c%5Cu54c1%5Cu996e%5Cu54c1%22%2C%22sub_categories%22%3A%5B%5D%2C%22image_url%22%3A%22%22%7D%2C%22activities%22%3A%5B%5D%7D&target_name=%E7%94%9C%E5%93%81%E9%A5%AE%E5%93%81&animation_type=1&is_need_mark=0&banner_type=",
+      "image_url": "./imgs/nav/img8.png",
       "icon_url": "",
       "title_color": "",
       "__v": 0
@@ -53,25 +141,620 @@
       "description": "足不出户，便利回家",
       "title": "商超便利",
       "link": "eleme://restaurants?filter_key=%7B%22category_schema%22%3A%7B%22category_name%22%3A%22%5Cu5546%5Cu8d85%5Cu4fbf%5Cu5229%22%2C%22complex_category_ids%22%3A%5B254%2C255%2C256%2C257%2C258%2C271%2C272%2C273%2C274%5D%2C%22is_show_all_category%22%3Atrue%7D%2C%22restaurant_category_id%22%3A%7B%22id%22%3A252%2C%22name%22%3A%22%5Cu5546%5Cu5e97%5Cu8d85%5Cu5e02%22%2C%22sub_categories%22%3A%5B%5D%2C%22image_url%22%3A%22%22%7D%2C%22activities%22%3A%5B%5D%7D&target_name=%E5%95%86%E8%B6%85%E4%BE%BF%E5%88%A9&animation_type=1&is_need_mark=0&banner_type=",
-      "image_url": "/0/da/f42235e6929a5cb0e7013115ce78djpeg.jpeg",
+      "image_url": "./imgs/nav/img7.png",
       "icon_url": "",
       "title_color": "",
       "__v": 0
     },
     {
-      "id": 15,
+      "id": 3,
       "is_in_serving": true,
       "description": "附近美食一网打尽",
       "title": "美食",
       "link": "eleme://restaurants?filter_key=%7B%22category_schema%22%3A%7B%22category_name%22%3A%22%5Cu7f8e%5Cu98df%22%2C%22complex_category_ids%22%3A%5B207%2C220%2C233%2C260%5D%2C%22is_show_all_category%22%3Afalse%7D%2C%22restaurant_category_id%22%3A%7B%22id%22%3A207%2C%22name%22%3A%22%5Cu5feb%5Cu9910%5Cu4fbf%5Cu5f53%22%2C%22sub_categories%22%3A%5B%5D%2C%22image_url%22%3A%22%22%7D%2C%22activities%22%3A%5B%5D%7D&target_name=%E7%BE%8E%E9%A3%9F&animation_type=1&is_need_mark=0&banner_type=",
-      "image_url": "/b/7e/d1890cf73ae6f2adb97caa39de7fcjpeg.jpeg",
+      "image_url": "./imgs/nav/img6.png",
+      "icon_url": "",
+      "title_color": "",
+      "__v": 0
+    },
+    {
+      "id": 4,
+      "is_in_serving": true,
+      "description": "附近美食一网打尽",
+      "title": "美食",
+      "link": "eleme://restaurants?filter_key=%7B%22category_schema%22%3A%7B%22category_name%22%3A%22%5Cu7f8e%5Cu98df%22%2C%22complex_category_ids%22%3A%5B207%2C220%2C233%2C260%5D%2C%22is_show_all_category%22%3Afalse%7D%2C%22restaurant_category_id%22%3A%7B%22id%22%3A207%2C%22name%22%3A%22%5Cu5feb%5Cu9910%5Cu4fbf%5Cu5f53%22%2C%22sub_categories%22%3A%5B%5D%2C%22image_url%22%3A%22%22%7D%2C%22activities%22%3A%5B%5D%7D&target_name=%E7%BE%8E%E9%A3%9F&animation_type=1&is_need_mark=0&banner_type=",
+      "image_url": "./imgs/nav/img5.png",
+      "icon_url": "",
+      "title_color": "",
+      "__v": 0
+    },
+    {
+      "id": 5,
+      "is_in_serving": true,
+      "description": "附近美食一网打尽",
+      "title": "美食",
+      "link": "eleme://restaurants?filter_key=%7B%22category_schema%22%3A%7B%22category_name%22%3A%22%5Cu7f8e%5Cu98df%22%2C%22complex_category_ids%22%3A%5B207%2C220%2C233%2C260%5D%2C%22is_show_all_category%22%3Afalse%7D%2C%22restaurant_category_id%22%3A%7B%22id%22%3A207%2C%22name%22%3A%22%5Cu5feb%5Cu9910%5Cu4fbf%5Cu5f53%22%2C%22sub_categories%22%3A%5B%5D%2C%22image_url%22%3A%22%22%7D%2C%22activities%22%3A%5B%5D%7D&target_name=%E7%BE%8E%E9%A3%9F&animation_type=1&is_need_mark=0&banner_type=",
+      "image_url": "./imgs/nav/img4.png",
+      "icon_url": "",
+      "title_color": "",
+      "__v": 0
+    },
+    {
+      "id": 6,
+      "is_in_serving": true,
+      "description": "附近美食一网打尽",
+      "title": "美食",
+      "link": "eleme://restaurants?filter_key=%7B%22category_schema%22%3A%7B%22category_name%22%3A%22%5Cu7f8e%5Cu98df%22%2C%22complex_category_ids%22%3A%5B207%2C220%2C233%2C260%5D%2C%22is_show_all_category%22%3Afalse%7D%2C%22restaurant_category_id%22%3A%7B%22id%22%3A207%2C%22name%22%3A%22%5Cu5feb%5Cu9910%5Cu4fbf%5Cu5f53%22%2C%22sub_categories%22%3A%5B%5D%2C%22image_url%22%3A%22%22%7D%2C%22activities%22%3A%5B%5D%7D&target_name=%E7%BE%8E%E9%A3%9F&animation_type=1&is_need_mark=0&banner_type=",
+      "image_url": "./imgs/nav/img3.png",
+      "icon_url": "",
+      "title_color": "",
+      "__v": 0
+    },
+    {
+      "id": 7,
+      "is_in_serving": true,
+      "description": "附近美食一网打尽",
+      "title": "美食",
+      "link": "eleme://restaurants?filter_key=%7B%22category_schema%22%3A%7B%22category_name%22%3A%22%5Cu7f8e%5Cu98df%22%2C%22complex_category_ids%22%3A%5B207%2C220%2C233%2C260%5D%2C%22is_show_all_category%22%3Afalse%7D%2C%22restaurant_category_id%22%3A%7B%22id%22%3A207%2C%22name%22%3A%22%5Cu5feb%5Cu9910%5Cu4fbf%5Cu5f53%22%2C%22sub_categories%22%3A%5B%5D%2C%22image_url%22%3A%22%22%7D%2C%22activities%22%3A%5B%5D%7D&target_name=%E7%BE%8E%E9%A3%9F&animation_type=1&is_need_mark=0&banner_type=",
+      "image_url": "./imgs/nav/img2.png",
+      "icon_url": "",
+      "title_color": "",
+      "__v": 0
+    },
+    {
+      "id": 8,
+      "is_in_serving": true,
+      "description": "附近美食一网打尽",
+      "title": "美食",
+      "link": "eleme://restaurants?filter_key=%7B%22category_schema%22%3A%7B%22category_name%22%3A%22%5Cu7f8e%5Cu98df%22%2C%22complex_category_ids%22%3A%5B207%2C220%2C233%2C260%5D%2C%22is_show_all_category%22%3Afalse%7D%2C%22restaurant_category_id%22%3A%7B%22id%22%3A207%2C%22name%22%3A%22%5Cu5feb%5Cu9910%5Cu4fbf%5Cu5f53%22%2C%22sub_categories%22%3A%5B%5D%2C%22image_url%22%3A%22%22%7D%2C%22activities%22%3A%5B%5D%7D&target_name=%E7%BE%8E%E9%A3%9F&animation_type=1&is_need_mark=0&banner_type=",
+      "image_url": "./imgs/nav/img1.png",
+      "icon_url": "",
+      "title_color": "",
+      "__v": 0
+    },
+    {
+      "id": 8,
+      "is_in_serving": true,
+      "description": "附近美食一网打尽",
+      "title": "美食",
+      "link": "eleme://restaurants?filter_key=%7B%22category_schema%22%3A%7B%22category_name%22%3A%22%5Cu7f8e%5Cu98df%22%2C%22complex_category_ids%22%3A%5B207%2C220%2C233%2C260%5D%2C%22is_show_all_category%22%3Afalse%7D%2C%22restaurant_category_id%22%3A%7B%22id%22%3A207%2C%22name%22%3A%22%5Cu5feb%5Cu9910%5Cu4fbf%5Cu5f53%22%2C%22sub_categories%22%3A%5B%5D%2C%22image_url%22%3A%22%22%7D%2C%22activities%22%3A%5B%5D%7D&target_name=%E7%BE%8E%E9%A3%9F&animation_type=1&is_need_mark=0&banner_type=",
+      "image_url": "./imgs/nav/img8.png",
       "icon_url": "",
       "title_color": "",
       "__v": 0
     }
+    
   ],
 
   "shops":[
+    {
+      "name": "嘉禾一品（温都水城）",
+      "address": "北京市昌平区宏福苑温都水城F1",
+      "id": 1,
+      "latitude": 40.10039,
+      "longitude": 116.36868,
+      "location": [
+        116.36868,
+        40.10039
+      ],
+      "phone": "13437850035",
+      "category": "快餐便当/简餐",
+      "supports": [
+        {
+          "description": "已加入“外卖保”计划，食品安全有保障",
+          "icon_color": "999999",
+          "icon_name": "保",
+          "id": 7,
+          "name": "外卖保",
+          "_id": "5a5859a19c2bc57d52df30b3"
+        },
+        {
+          "description": "准时必达，超时秒赔",
+          "icon_color": "57A9FF",
+          "icon_name": "准",
+          "id": 9,
+          "name": "准时达",
+          "_id": "5a5859a19c2bc57d52df30b2"
+        },
+        {
+          "description": "该商家支持开发票，请在下单时填写好发票抬头",
+          "icon_color": "999999",
+          "icon_name": "票",
+          "id": 4,
+          "name": "开发票",
+          "_id": "5a5859a19c2bc57d52df30b1"
+        }
+      ],
+      "status": 1,
+      "recent_order_num": 106,
+      "rating_count": 961,
+      "rating": 4.7,
+      "promotion_info": "欢迎光临，用餐高峰请提前下单，谢谢",
+      "piecewise_agent_fee": {
+        "tips": "配送费约¥5"
+      },
+      "opening_hours": [
+        "8:30/20:30"
+      ],
+      "license": {
+        "catering_service_license_image": "160e91e17fa2164.png",
+        "business_license_image": "160e91e0a9f2163.png"
+      },
+      "is_new": true,
+      "is_premium": true,
+      "image_path": "fish.jpg",
+      "identification": {
+        "registered_number": "",
+        "registered_address": "",
+        "operation_period": "",
+        "licenses_scope": "",
+        "licenses_number": "",
+        "licenses_date": "",
+        "legal_person": "",
+        "identificate_date": null,
+        "identificate_agency": "",
+        "company_name": ""
+      },
+      "float_minimum_order_amount": 20,
+      "float_delivery_fee": 5,
+      "distance": "2120.1公里",
+      "order_lead_time": "31小时24分钟",
+      "description": "sad",
+      "delivery_mode": {
+        "color": "57A9FF",
+        "id": 1,
+        "is_solid": true,
+        "text": "外卖专送"
+      },
+      "activities": [],
+      "__v": 0
+    },
+    {
+      "name": "大成小厨",
+      "address": "河南省郑州市蜀山区南二环路天鹅湖万达广场8号楼1705室",
+      "id": 479,
+      "latitude": 31.81948,
+      "longitude": 117.22124,
+      "location": [
+        93.50611,
+        42.84974
+      ],
+      "phone": "122343adsa",
+      "category": "异国料理",
+      "supports": [
+        {
+          "description": "已加入“外卖保”计划，食品安全有保障",
+          "icon_color": "999999",
+          "icon_name": "保",
+          "id": 7,
+          "name": "外卖保",
+          "_id": "5a66f45c76d92175ac4464dd"
+        },
+        {
+          "description": "准时必达，超时秒赔",
+          "icon_color": "57A9FF",
+          "icon_name": "准",
+          "id": 9,
+          "name": "准时达",
+          "_id": "5a66f45c76d92175ac4464dc"
+        },
+        {
+          "description": "该商家支持开发票，请在下单时填写好发票抬头",
+          "icon_color": "999999",
+          "icon_name": "票",
+          "id": 4,
+          "name": "开发票",
+          "_id": "5a66f45c76d92175ac4464db"
+        }
+      ],
+      "status": 1,
+      "recent_order_num": 755,
+      "rating_count": 167,
+      "rating": 4.2,
+      "promotion_info": "欢迎光临，用餐高峰请提前下单，谢谢",
+      "piecewise_agent_fee": {
+        "tips": "配送费约¥5"
+      },
+      "opening_hours": [
+        "8:30/20:30"
+      ],
+      "license": {
+        "catering_service_license_image": "",
+        "business_license_image": ""
+      },
+      "is_new": true,
+      "is_premium": true,
+      "image_path": "bread.jpg",
+      "identification": {
+        "registered_number": "",
+        "registered_address": "",
+        "operation_period": "",
+        "licenses_scope": "",
+        "licenses_number": "",
+        "licenses_date": "",
+        "legal_person": "",
+        "identificate_date": null,
+        "identificate_agency": "",
+        "company_name": ""
+      },
+      "float_minimum_order_amount": 20,
+      "float_delivery_fee": 5,
+      "distance": "1010.3公里",
+      "order_lead_time": "21小时7分钟",
+      "description": "描述性内容1",
+      "delivery_mode": {
+        "color": "57A9FF",
+        "id": 1,
+        "is_solid": true,
+        "text": "外卖专送"
+      },
+      "activities": [
+        {
+          "icon_name": "减",
+          "name": "满减优惠",
+          "description": "满30减5，满60减8",
+          "icon_color": "f07373",
+          "id": 1,
+          "_id": "5a66f45c76d92175ac4464de"
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "name": "苏州嘻哈包袱铺",
+      "address": "江苏省苏州市吴中区吴东路中文基广场(姜家桥公交站南)",
+      "id": 485,
+      "latitude": 31.26578,
+      "longitude": 120.65355,
+      "location": [
+        120.65355,
+        31.26578
+      ],
+      "phone": "12345678901",
+      "category": "商店超市/名酒坊",
+      "supports": [
+        {
+          "description": "已加入“外卖保”计划，食品安全有保障",
+          "icon_color": "999999",
+          "icon_name": "保",
+          "id": 7,
+          "name": "外卖保",
+          "_id": "5a6830b41d632b05464db9d1"
+        },
+        {
+          "description": "准时必达，超时秒赔",
+          "icon_color": "57A9FF",
+          "icon_name": "准",
+          "id": 9,
+          "name": "准时达",
+          "_id": "5a6830b41d632b05464db9d0"
+        },
+        {
+          "description": "该商家支持开发票，请在下单时填写好发票抬头",
+          "icon_color": "999999",
+          "icon_name": "票",
+          "id": 4,
+          "name": "开发票",
+          "_id": "5a6830b41d632b05464db9cf"
+        }
+      ],
+      "status": 1,
+      "recent_order_num": 58,
+      "rating_count": 576,
+      "rating": 4.6,
+      "promotion_info": "欢迎光临，用餐高峰请提前下单，谢谢",
+      "piecewise_agent_fee": {
+        "tips": "配送费约¥5"
+      },
+      "opening_hours": [
+        "8:30/20:30"
+      ],
+      "license": {
+        "catering_service_license_image": "meat.jpg",
+        "business_license_image": "meat.jpg"
+      },
+      "is_new": true,
+      "is_premium": true,
+      "image_path": "meat.jpg",
+      "identification": {
+        "registered_number": "",
+        "registered_address": "",
+        "operation_period": "",
+        "licenses_scope": "",
+        "licenses_number": "",
+        "licenses_date": "",
+        "legal_person": "",
+        "identificate_date": null,
+        "identificate_agency": "",
+        "company_name": ""
+      },
+      "float_minimum_order_amount": 20,
+      "float_delivery_fee": 5,
+      "distance": "1167.4公里",
+      "order_lead_time": "19小时1分钟",
+      "description": "",
+      "delivery_mode": {
+        "color": "57A9FF",
+        "id": 1,
+        "is_solid": true,
+        "text": "外卖专送"
+      },
+      "activities": [
+        {
+          "icon_name": "减",
+          "name": "满减优惠",
+          "description": "满30减5，满60减8",
+          "icon_color": "f07373",
+          "id": 1,
+          "_id": "5a6830b41d632b05464db9d2"
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "name": "嘉禾一品（温都水城）",
+      "address": "北京市昌平区宏福苑温都水城F1",
+      "id": 1,
+      "latitude": 40.10039,
+      "longitude": 116.36868,
+      "location": [
+        116.36868,
+        40.10039
+      ],
+      "phone": "13437850035",
+      "category": "快餐便当/简餐",
+      "supports": [
+        {
+          "description": "已加入“外卖保”计划，食品安全有保障",
+          "icon_color": "999999",
+          "icon_name": "保",
+          "id": 7,
+          "name": "外卖保",
+          "_id": "5a5859a19c2bc57d52df30b3"
+        },
+        {
+          "description": "准时必达，超时秒赔",
+          "icon_color": "57A9FF",
+          "icon_name": "准",
+          "id": 9,
+          "name": "准时达",
+          "_id": "5a5859a19c2bc57d52df30b2"
+        },
+        {
+          "description": "该商家支持开发票，请在下单时填写好发票抬头",
+          "icon_color": "999999",
+          "icon_name": "票",
+          "id": 4,
+          "name": "开发票",
+          "_id": "5a5859a19c2bc57d52df30b1"
+        }
+      ],
+      "status": 1,
+      "recent_order_num": 106,
+      "rating_count": 961,
+      "rating": 4.7,
+      "promotion_info": "欢迎光临，用餐高峰请提前下单，谢谢",
+      "piecewise_agent_fee": {
+        "tips": "配送费约¥5"
+      },
+      "opening_hours": [
+        "8:30/20:30"
+      ],
+      "license": {
+        "catering_service_license_image": "160e91e17fa2164.png",
+        "business_license_image": "160e91e0a9f2163.png"
+      },
+      "is_new": true,
+      "is_premium": true,
+      "image_path": "fish.jpg",
+      "identification": {
+        "registered_number": "",
+        "registered_address": "",
+        "operation_period": "",
+        "licenses_scope": "",
+        "licenses_number": "",
+        "licenses_date": "",
+        "legal_person": "",
+        "identificate_date": null,
+        "identificate_agency": "",
+        "company_name": ""
+      },
+      "float_minimum_order_amount": 20,
+      "float_delivery_fee": 5,
+      "distance": "2120.1公里",
+      "order_lead_time": "31小时24分钟",
+      "description": "sad",
+      "delivery_mode": {
+        "color": "57A9FF",
+        "id": 1,
+        "is_solid": true,
+        "text": "外卖专送"
+      },
+      "activities": [],
+      "__v": 0
+    },
+    {
+      "name": "大成小厨",
+      "address": "河南省郑州市蜀山区南二环路天鹅湖万达广场8号楼1705室",
+      "id": 479,
+      "latitude": 31.81948,
+      "longitude": 117.22124,
+      "location": [
+        93.50611,
+        42.84974
+      ],
+      "phone": "122343adsa",
+      "category": "异国料理",
+      "supports": [
+        {
+          "description": "已加入“外卖保”计划，食品安全有保障",
+          "icon_color": "999999",
+          "icon_name": "保",
+          "id": 7,
+          "name": "外卖保",
+          "_id": "5a66f45c76d92175ac4464dd"
+        },
+        {
+          "description": "准时必达，超时秒赔",
+          "icon_color": "57A9FF",
+          "icon_name": "准",
+          "id": 9,
+          "name": "准时达",
+          "_id": "5a66f45c76d92175ac4464dc"
+        },
+        {
+          "description": "该商家支持开发票，请在下单时填写好发票抬头",
+          "icon_color": "999999",
+          "icon_name": "票",
+          "id": 4,
+          "name": "开发票",
+          "_id": "5a66f45c76d92175ac4464db"
+        }
+      ],
+      "status": 1,
+      "recent_order_num": 755,
+      "rating_count": 167,
+      "rating": 4.2,
+      "promotion_info": "欢迎光临，用餐高峰请提前下单，谢谢",
+      "piecewise_agent_fee": {
+        "tips": "配送费约¥5"
+      },
+      "opening_hours": [
+        "8:30/20:30"
+      ],
+      "license": {
+        "catering_service_license_image": "",
+        "business_license_image": ""
+      },
+      "is_new": true,
+      "is_premium": true,
+      "image_path": "bread.jpg",
+      "identification": {
+        "registered_number": "",
+        "registered_address": "",
+        "operation_period": "",
+        "licenses_scope": "",
+        "licenses_number": "",
+        "licenses_date": "",
+        "legal_person": "",
+        "identificate_date": null,
+        "identificate_agency": "",
+        "company_name": ""
+      },
+      "float_minimum_order_amount": 20,
+      "float_delivery_fee": 5,
+      "distance": "1010.3公里",
+      "order_lead_time": "21小时7分钟",
+      "description": "描述性内容1",
+      "delivery_mode": {
+        "color": "57A9FF",
+        "id": 1,
+        "is_solid": true,
+        "text": "外卖专送"
+      },
+      "activities": [
+        {
+          "icon_name": "减",
+          "name": "满减优惠",
+          "description": "满30减5，满60减8",
+          "icon_color": "f07373",
+          "id": 1,
+          "_id": "5a66f45c76d92175ac4464de"
+        }
+      ],
+      "__v": 0
+    },
+    {
+      "name": "苏州嘻哈包袱铺",
+      "address": "江苏省苏州市吴中区吴东路中文基广场(姜家桥公交站南)",
+      "id": 485,
+      "latitude": 31.26578,
+      "longitude": 120.65355,
+      "location": [
+        120.65355,
+        31.26578
+      ],
+      "phone": "12345678901",
+      "category": "商店超市/名酒坊",
+      "supports": [
+        {
+          "description": "已加入“外卖保”计划，食品安全有保障",
+          "icon_color": "999999",
+          "icon_name": "保",
+          "id": 7,
+          "name": "外卖保",
+          "_id": "5a6830b41d632b05464db9d1"
+        },
+        {
+          "description": "准时必达，超时秒赔",
+          "icon_color": "57A9FF",
+          "icon_name": "准",
+          "id": 9,
+          "name": "准时达",
+          "_id": "5a6830b41d632b05464db9d0"
+        },
+        {
+          "description": "该商家支持开发票，请在下单时填写好发票抬头",
+          "icon_color": "999999",
+          "icon_name": "票",
+          "id": 4,
+          "name": "开发票",
+          "_id": "5a6830b41d632b05464db9cf"
+        }
+      ],
+      "status": 1,
+      "recent_order_num": 58,
+      "rating_count": 576,
+      "rating": 4.6,
+      "promotion_info": "欢迎光临，用餐高峰请提前下单，谢谢",
+      "piecewise_agent_fee": {
+        "tips": "配送费约¥5"
+      },
+      "opening_hours": [
+        "8:30/20:30"
+      ],
+      "license": {
+        "catering_service_license_image": "meat.jpg",
+        "business_license_image": "meat.jpg"
+      },
+      "is_new": true,
+      "is_premium": true,
+      "image_path": "meat.jpg",
+      "identification": {
+        "registered_number": "",
+        "registered_address": "",
+        "operation_period": "",
+        "licenses_scope": "",
+        "licenses_number": "",
+        "licenses_date": "",
+        "legal_person": "",
+        "identificate_date": null,
+        "identificate_agency": "",
+        "company_name": ""
+      },
+      "float_minimum_order_amount": 20,
+      "float_delivery_fee": 5,
+      "distance": "1167.4公里",
+      "order_lead_time": "19小时1分钟",
+      "description": "",
+      "delivery_mode": {
+        "color": "57A9FF",
+        "id": 1,
+        "is_solid": true,
+        "text": "外卖专送"
+      },
+      "activities": [
+        {
+          "icon_name": "减",
+          "name": "满减优惠",
+          "description": "满30减5，满60减8",
+          "icon_color": "f07373",
+          "id": 1,
+          "_id": "5a6830b41d632b05464db9d2"
+        }
+      ],
+      "__v": 0
+    },
     {
       "name": "嘉禾一品（温都水城）",
       "address": "北京市昌平区宏福苑温都水城F1",

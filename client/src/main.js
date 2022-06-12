@@ -2,8 +2,10 @@ import Vue from 'vue'
 import App from './App.vue'
 import VueRouter from 'vue-router'
 import router from './router'
-import axios from 'axios'
 // import { Swipe, SwipeItem } from 'mint-ui'
+
+// 引入配置好的store
+import store from './store'
 
 // 使用VueRouter
 Vue.use(VueRouter)
@@ -16,5 +18,6 @@ Vue.config.productionTip = false
 
 new Vue({
   render: h => h(App),
-  router:router
+  router:router,
+  store
 }).$mount('#app')
