@@ -6,6 +6,20 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "9402934",
+      "name": "尖括号",
+      "font_class": "changyongicon-",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "9402968",
+      "name": "尖括号-左",
+      "font_class": "changyongicon-1",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
       "icon_id": "25101396",
       "name": "外卖订单",
       "font_class": "waimaidingdan-01",

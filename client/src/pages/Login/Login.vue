@@ -3,7 +3,7 @@
     <div>
       <!-- 顶部返回图标 -->
       <!-- <router-link to="/profile"> -->
-      <span class="glyphicon glyphicon-chevron-left back" @click="$router.back()"></span>
+      <span class="iconfont icon-changyongicon-1 back" @click="$router.back()"></span>
       <!-- </router-link>  -->
     </div>
     <div class="login_header">
@@ -83,6 +83,7 @@
     position: absolute;
     top: 5px;
     left: 5px;
+    color: black;
   }
   /* 登录标题 */
   .login_header h2{

@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 
 export default new VueRouter({
   // 所有路由
+  mode: 'history',
   routes:[
     {
       path:'/',

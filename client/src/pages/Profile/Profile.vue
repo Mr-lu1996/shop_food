@@ -14,7 +14,7 @@
         </router-link>     
       </div>
       <div class="login_text_style">
-        <span class="glyphicon glyphicon-menu-right"></span>
+        <span class="iconfont icon-changyongicon-"></span>
       </div>
     </div>
     <!-- 个人信息栏(余额、优惠券、积分) -->
